@@ -9,6 +9,7 @@ public class Enemy {
     private int xpReward;
     private String name;
     private EnemyType currentType;
+    private static final int DEFAULT_XP_REWARD = 10;
 
     public Enemy(EnemyType type){
         this.maxHp = type.getMaxHp();
